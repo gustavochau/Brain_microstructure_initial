@@ -1,0 +1,127 @@
+{
+    "os": "Linux-5.15.0-107-generic-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2024-06-06T19:15:21.677609",
+    "startedAt": "2024-06-06T19:15:20.940058",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024/run_transfer_learning_MLPencoder_classification_task_CV_postaverage.ipynb",
+    "codePathLocal": null,
+    "root": "/home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024",
+    "git": {
+        "remote": "git@github.com:gustavochau/microstructure_histology_nfm.git",
+        "commit": "aef0374ae78198f5e81b4297644780a19804ec0a"
+    },
+    "email": "gchau@stanford.edu",
+    "host": "gustavo-MSI",
+    "username": "gustavo",
+    "executable": "/home/gustavo/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4281.3163125,
+        "min": 800.0,
+        "max": 5000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4268.291,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4278.039,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4278.999,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4489.776,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4400.141,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4093.788,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4346.457,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4274.028,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4276.351,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4153.37,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4205.418,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4468.653,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4437.931,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4417.223,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4523.464,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 4440.459,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 109.44438171386719,
+            "used": 99.89496612548828
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 62.60657501220703
+    }
+}

@@ -1,0 +1,41 @@
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Configure stats pid to 13077
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Loading settings from /home/gustavo/.config/wandb/settings
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Loading settings from /home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024/wandb/settings
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'nfm_transfer_learning_ga4p9e9u_MLPencoder_raw_and_maps_classification_CV_fold0_postAvg', 'entity': 'spheal-team', 'root_dir': '/home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024', 'run_id': 'v13l8sdq', 'sweep_param_path': '/home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024/wandb/sweep-o3xhzeuy/config-v13l8sdq.yaml', 'sweep_id': 'o3xhzeuy'}
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_init.py:_log_setup():528] Logging user logs to /home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024/wandb/run-20240606_121520-v13l8sdq/logs/debug.log
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_init.py:_log_setup():529] Logging internal logs to /home/gustavo/Gdrive/Stanford/Lab/ODF_prediction/ISMRM2024/wandb/run-20240606_121520-v13l8sdq/logs/debug-internal.log
+2024-06-06 12:15:20,941 INFO    Thread-178:13077 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f1d21e97d00>
+2024-06-06 12:15:20,942 INFO    Thread-178:13077 [wandb_init.py:init():568] calling init triggers
+2024-06-06 12:15:20,942 INFO    Thread-178:13077 [wandb_init.py:init():575] wandb.init called with sweep_config: {'K': 2, 'batch_size': 32, 'context_size': 8, 'dropout': 0.3, 'epochs': 2000, 'experimental_dataset': 'mouse_3regions_raw_and_map_reg_fold0', 'freeze_config': 'none', 'hidden_units': 96, 'learning_rate': 0.0002951481767707875, 'num_blocks': 2, 'optimizer': 'adam', 'pretrain_run': 'ga4p9e9u', 'pretrain_set': 'dog', 'weight_decay': 6.1221740028899216e-06}
+config: {}
+2024-06-06 12:15:20,942 INFO    Thread-178:13077 [wandb_init.py:init():618] starting backend
+2024-06-06 12:15:20,942 INFO    Thread-178:13077 [wandb_init.py:init():622] setting up manager
+2024-06-06 12:15:20,945 INFO    Thread-178:13077 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-06 12:15:20,945 INFO    Thread-178:13077 [wandb_init.py:init():628] backend started and connected
+2024-06-06 12:15:20,965 INFO    Thread-178:13077 [wandb_run.py:_config_callback():1324] config_cb None None {'K': 2, 'batch_size': 32, 'context_size': 8, 'dropout': 0.3, 'epochs': 2000, 'experimental_dataset': 'mouse_3regions_raw_and_map_reg_fold0', 'freeze_config': 'none', 'hidden_units': 96, 'learning_rate': 0.0002951481767707875, 'num_blocks': 2, 'optimizer': 'adam', 'pretrain_run': 'ga4p9e9u', 'pretrain_set': 'dog', 'weight_decay': 6.1221740028899216e-06}
+2024-06-06 12:15:20,966 INFO    Thread-178:13077 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2024-06-06 12:15:20,966 INFO    Thread-178:13077 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-06-06 12:15:20,966 INFO    Thread-178:13077 [wandb_init.py:init():720] updated telemetry
+2024-06-06 12:15:20,994 INFO    Thread-178:13077 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-06-06 12:15:21,225 INFO    Thread-178:13077 [wandb_run.py:_on_init():2220] communicating current version
+2024-06-06 12:15:21,359 INFO    Thread-178:13077 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-06 12:15:21,359 INFO    Thread-178:13077 [wandb_init.py:init():804] starting run threads in backend
+2024-06-06 12:15:27,884 INFO    Thread-178:13077 [wandb_run.py:_console_start():2199] atexit reg
+2024-06-06 12:15:27,884 INFO    Thread-178:13077 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2024-06-06 12:15:27,884 INFO    Thread-178:13077 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2024-06-06 12:15:27,884 INFO    Thread-178:13077 [wandb_run.py:_redirect():2144] Redirects installed.
+2024-06-06 12:15:27,885 INFO    Thread-178:13077 [wandb_init.py:init():845] run started, returning control to user process
+2024-06-06 12:16:12,024 INFO    Thread-178:13077 [wandb_run.py:_finish():1934] finishing run spheal-team/nfm_transfer_learning_ga4p9e9u_MLPencoder_raw_and_maps_classification_CV_fold0_postAvg/v13l8sdq
+2024-06-06 12:16:12,024 INFO    Thread-178:13077 [jupyter.py:save_history():445] not saving jupyter history
+2024-06-06 12:16:12,024 INFO    Thread-178:13077 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-06-06 12:16:12,024 INFO    Thread-178:13077 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2024-06-06 12:16:12,024 INFO    Thread-178:13077 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2024-06-06 12:16:12,025 INFO    Thread-178:13077 [wandb_run.py:_restore():2151] restore
+2024-06-06 12:16:12,025 INFO    Thread-178:13077 [wandb_run.py:_restore():2157] restore done
+2024-06-06 12:16:18,367 INFO    Thread-178:13077 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2024-06-06 12:16:18,369 INFO    Thread-178:13077 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2024-06-06 12:16:18,379 INFO    Thread-178:13077 [wandb_run.py:_footer_sync_info():3558] logging synced files
